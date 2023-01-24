@@ -1,0 +1,38 @@
+.l-body{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    ". main ."
+    "footer footer footer";
+    grid-template-columns: [margin-left] 1.32rem [contente] 1fr [margin-right] 1.32rem;
+    grid-template-rows: [line-header] auto [line-main] 1fr [line-footer] auto;
+    grid-row-gap: 3.2rem;
+}
+
+/*Header*/
+
+.l-header{
+    height: 8rem;
+    grid-area: header;
+    grid-row: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.l-main{
+    grid-area: main;
+    grid-row: line-main;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 3.2rem;
+}
+
+.l-footer{
+    grid-area: footer;
+    grid-row: line-footer;
+}
+
