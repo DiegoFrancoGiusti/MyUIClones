@@ -1,0 +1,18 @@
+:root{
+    /*Fontes*/
+
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-second: 'Righteous', 'cursive';
+
+    /*Cores*/
+    --background-color-body: #EBEBEB;
+    --color-primary: #111213;
+    --color-second: #fff;
+    --color-html: #EC6432;
+    --color-css: #0085C6;
+    --color-js: #F5CE35;
+    --color-Bem: #2ECDC4;
+    --color-smacss: #415371;
+
+
+}

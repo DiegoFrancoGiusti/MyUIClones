@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-family-primary: 'Roboto', sans-serif;
+    --background-color-body: #EBEBEB;
+    --color-primary: #111213;
+}
+
+html{
+    font-family: var(--font-family-primary);
+    font-size: 62.5%;
+    color: var(--color-primary);
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background-color-body);
+}
