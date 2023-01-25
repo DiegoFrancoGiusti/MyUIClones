@@ -12,7 +12,7 @@
 /*Header*/
 
 .l-header{
-    height: 8rem;
+    height: 10rem;
     grid-area: header;
     grid-row: header;
     display: flex;
@@ -22,6 +22,8 @@
     box-shadow: 0 0 10px rgb(0 0 0 / 20%);
 }
 
+/* Main */
+
 .l-main{
     grid-area: main;
     grid-row: line-main;
@@ -29,10 +31,28 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 3.2rem;
+    grid-auto-rows: 0.8fr;
 }
+
+/* Footer */
 
 .l-footer{
     grid-area: footer;
     grid-row: line-footer;
 }
 
+/* Responsividade */
+
+@media screen and (min-width: 580px) {
+    .l-main{
+       grid-template-columns: 1fr 1fr;
+       grid-column-gap: 2.4rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .l-main{
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-column-gap: 3.2rem;
+    }
+}
