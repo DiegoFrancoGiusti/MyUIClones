@@ -4,7 +4,7 @@
     "header header header"
     ". main ."
     "footer footer footer";
-    grid-template-columns: [margin-left] 1.32rem [contente] 1fr [margin-right] 1.32rem;
+    grid-template-columns: [margin-left] 1.3rem [contente] 1fr [margin-right] 1.3rem;
     grid-template-rows: [line-header] auto [line-main] 1fr [line-footer] auto;
     grid-row-gap: 3.2rem;
 }
