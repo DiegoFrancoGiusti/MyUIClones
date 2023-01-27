@@ -1,0 +1,12 @@
+.c-logo{
+    text-align: center;
+    font-size: clamp(4.0rem, 4.5rem, 4.8rem);
+    font-family: 'Righteous', 'cursive';
+}
+
+.c-logo__special{
+    color: #2ECDC4;
+}
+
+
+
