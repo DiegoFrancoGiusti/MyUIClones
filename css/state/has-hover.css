@@ -1,0 +1,14 @@
+@keyframes move-left {
+    to{
+       transform: translateX(10px) ;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .c-address__contacts-item:hover{
+        animation: move-left 750ms ease-out both;
+    }
+}
+
+
+

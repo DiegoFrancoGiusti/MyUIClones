@@ -10,6 +10,7 @@
 
 .c-address__contacts-item{
     margin-bottom: 0.8rem;
+    width: fit-content;
 }
 
 .c-address__contacts-item a{
@@ -32,3 +33,4 @@
     text-align: center;
 
 }
+
