@@ -1,8 +1,7 @@
 .c-article-site{
     background-color: #fff;
-    /*overflow: hidden;*/
     position: relative;
-    transition: 0.8s;
+    opacity: 1;
 }
 
 .c-article-site, .c-article-site__img{
@@ -64,10 +63,12 @@
 
 @media screen and (min-width: 1024px){
     .c-article-site{
-        box-shadow: -8px 5px 8px rgba(0, 0, 0, 0.4);
+        box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.4);
+        transition: 0.4s;
     }
 
     .c-article-site:not(.article-disable):hover{
+        transition: 0.4s;
         transform: translateY(-0.5rem);
     }
 }

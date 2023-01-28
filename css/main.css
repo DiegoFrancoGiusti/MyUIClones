@@ -20,4 +20,5 @@
 /*======== STATE ========*/
 
 @import 'state/technology-color.css';
-@import 'state/is-disable.css'
+@import 'state/is-disable.css';
+@import 'state/has-show.css';

@@ -1,0 +1,17 @@
+@keyframes up-card{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{
+        opacity: 1;
+        transform: none;
+        
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .c-article-site{
+       animation: up-card 1.75s cubic-bezier(.46,1.06,.92,1.01) ;
+    }
+}

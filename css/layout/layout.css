@@ -54,8 +54,11 @@
 }
 
 @media screen and (min-width: 900px) {
+    .l-body{
+        grid-template-columns: [margin-left] 3.2rem [contente] 1fr [margin-right] 3.2rem;
+    }
     .l-main{
        grid-template-columns: 1fr 1fr 1fr;
-       grid-column-gap: 3.2rem;
+       grid-column-gap: 1.6rem;
     }
 }
