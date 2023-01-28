@@ -1,11 +1,8 @@
 /*======== BASE ========*/
-/* Normalize */
 
 @import 'base/normalize.css';
-
-/* Reset */
-
 @import 'base/reset.css';
+@import 'base/scrollbar.css';
 
 /*======== LAYOUT ========*/
 
