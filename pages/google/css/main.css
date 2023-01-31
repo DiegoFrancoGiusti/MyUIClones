@@ -7,6 +7,7 @@
 
 /*======== MODULE ========*/
 @import 'module/links.css';
+@import 'module/logo.css';
 
 /*======== STATE ========*/
 @import 'state/is-checked.css';

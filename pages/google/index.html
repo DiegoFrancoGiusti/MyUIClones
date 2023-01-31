@@ -10,23 +10,25 @@
     <title>Google</title>
 </head>
 <body>
-    <main>
-        <header class="l-header">
-            <div  class="l-header__content">
-                <a href="#" class="c-link">Gmail</a>
-                <a href="#" class="c-link ">Imagens</a>
-            </div>
-            <div class="l-header__content">
-                <a href="#" class="c-link link--applications"><img src="img/applications.png" alt=""></a>
-               <a href="#" class="c-link link---avatar"><img src="img/Avatar.png" alt=""></a>
-            </div>
-        </header>
-        <section class="l-section">
-            <img src="img/google-logo.png" alt="Logo do Google">
-            <form>
-                <input type="text">
-            </form>
-        </section>
+    <header class="l-header">
+        <div  class="l-header__content">
+            <a href="#" class="c-link">Gmail</a>
+            <a href="#" class="c-link ">Imagens</a>
+        </div>
+        <div class="l-header__content">
+            <a href="#" class="c-link link--applications"><img src="img/applications.png" alt=""></a>
+           <a href="#" class="c-link link---avatar"><img src="img/Avatar.png" alt=""></a>
+        </div>
+    </header> 
+    <main class="l-main">
+        <picture>
+            <source media="(max-width:599px)" type="image/png" srcset="img/Google-logo-pequeno.png" alt="Logo do Google">
+            <source media="(min-width:600px)" type="image/png" srcset="img/Google-logo-grande.png" alt="Logo do Google">
+            <img src="img/Google-logo-pequeno.png" alt="Logo do Google">
+        </picture>
+        <form>
+            <input type="text">
+        </form>
     </main>
 </body>
 </html>
