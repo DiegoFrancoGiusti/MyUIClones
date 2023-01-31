@@ -1,0 +1,41 @@
+.c-link{
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #73787d;
+    
+    padding: 0rem 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.link---avatar{
+    padding: 0.4rem 0rem 0.4rem 0.4rem;
+    margin: 0rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.link---avatar img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.link--applications{
+    padding: 0.8rem;
+    margin: 0rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.link--applications img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+
+
