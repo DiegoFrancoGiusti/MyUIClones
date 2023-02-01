@@ -8,6 +8,9 @@
 /*======== MODULE ========*/
 @import 'module/links.css';
 @import 'module/logo.css';
+@import 'module/form.css';
+@import 'module/input.css';
+@import 'module/search-bar.css';
 
 /*======== STATE ========*/
 @import 'state/is-checked.css';

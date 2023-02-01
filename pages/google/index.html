@@ -12,8 +12,8 @@
 <body>
     <header class="l-header">
         <div  class="l-header__content">
-            <a href="#" class="c-link">Gmail</a>
-            <a href="#" class="c-link ">Imagens</a>
+            <a href="#" class="c-link is-checked">Gmail</a>
+            <a href="#" class="c-link is-checked">Imagens</a>
         </div>
         <div class="l-header__content">
             <a href="#" class="c-link link--applications"><img src="img/applications.png" alt=""></a>
@@ -26,8 +26,16 @@
             <source media="(min-width:600px)" type="image/png" srcset="img/Google-logo-grande.png" alt="Logo do Google">
             <img src="img/Google-logo-pequeno.png" alt="Logo do Google">
         </picture>
-        <form>
-            <input type="text">
+        <form method="post" class="c-form">
+            <div class="c-search-bar">
+                <img src="img/search.png" alt="icone de busca" class="c-search-icon">
+                <input class="c-form__input" type="text">
+                <div  class="c-form__icons-input">
+                    <button class="c-btn" type="button"><img src="img/keyboard.png" alt="teclado virtual"></button>
+                    <button class="c-btn" type="button"><img src="img/microfone.png" alt="icone de busca por voz"></button>
+                    <button class="c-btn" type="button"><img src="img/Search-img.png" alt="icone de busca por imagem"></button>
+                </div>
+            </div>
         </form>
     </main>
 </body>
