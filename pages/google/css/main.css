@@ -11,6 +11,7 @@
 @import 'module/form.css';
 @import 'module/input.css';
 @import 'module/search-bar.css';
+@import 'module/other-btn.css';
 
 /*======== STATE ========*/
 @import 'state/is-checked.css';

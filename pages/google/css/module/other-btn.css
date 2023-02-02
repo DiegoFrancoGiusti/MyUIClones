@@ -1,0 +1,18 @@
+.c-form__other-btn{
+    display: none;
+    width: 100%;
+    margin-top: 1.8rem;
+    text-align: center;
+}
+
+.c-form__other-btn button{
+    height: 3.4rem;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0.4rem;
+    color: #3c4043;
+    margin: 0.4rem 1.1rem;
+    padding: 0rem 1.6rem;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+}
