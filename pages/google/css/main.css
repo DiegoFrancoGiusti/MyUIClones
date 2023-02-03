@@ -12,6 +12,7 @@
 @import 'module/input.css';
 @import 'module/search-bar.css';
 @import 'module/other-btn.css';
+@import 'module/trending-topics.css';
 
 /*======== STATE ========*/
 @import 'state/is-checked.css';

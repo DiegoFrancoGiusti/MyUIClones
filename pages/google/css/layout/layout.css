@@ -25,13 +25,9 @@
     padding-top: 2rem;
 }
 
-.l-trending-topics {
+.l-trending-topics{
     width: 100%;
     margin-top: 2.4rem;
-    
-}
-
-.l-trending-topics li{
-    list-style: circle;
+    padding: 0rem 1.6rem;
 }
 
