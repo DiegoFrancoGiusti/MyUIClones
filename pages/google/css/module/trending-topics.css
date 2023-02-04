@@ -2,6 +2,8 @@
     color: #202124;
 }
 
+/* Trending Topics Header */
+
 .c-trending-topics__header{
     display: flex;
     justify-content: space-between;
@@ -23,4 +25,29 @@
     font-weight: bolder;
     text-align: center;
     transform: rotate(90deg);
+}
+
+/* Trending Topics List */
+
+.c-trending-topics__item{
+    border-bottom: 1px solid #dadce0;
+    font-size: 1.6rem;
+    font-family: Helvetica;
+    height: 5.3rem;
+    padding-top: 0.5rem;
+}
+
+.c-trending-topics__link{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+}
+
+.c-trending-topics__link span:first-child{
+    margin: 0rem 2.1rem 0rem 1.4rem;
+}
+
+.c-trending-topics__link span img{
+   
 }
