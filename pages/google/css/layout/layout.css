@@ -47,3 +47,25 @@
 .l-footer *{
     color: #70757a;
 }
+
+/* Responsividade */
+
+@media screen and (min-width: 550px){
+    .l-header{
+        justify-content: flex-end;
+        padding: 0.6rem 1rem 0.6rem 0.6rem;
+    }
+
+    .l-header__content:first-child{
+        padding-right: 1.5rem;
+    }
+
+    .l-main{
+        height: 80vh;
+        width: 100%;
+    }
+
+    .l-trending-topics{
+        display: none;
+    }
+}
