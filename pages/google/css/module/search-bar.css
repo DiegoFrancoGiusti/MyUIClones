@@ -44,3 +44,13 @@
         border-radius: 2.4rem;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .c-form__search-bar{
+        margin-top: 0.6rem;
+    }
+
+    .c-btn:first-child{
+        display: block;
+    }
+}

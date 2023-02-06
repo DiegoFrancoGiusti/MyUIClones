@@ -69,3 +69,20 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .l-header{
+        height: 6rem;
+    }
+
+    .l-main{
+        padding-top: 0rem;
+        margin-top: 0.5rem;
+    }
+
+    .l-footer{
+        height: 9.5rem;
+        position: absolute;
+        bottom: 0;
+    }
+}

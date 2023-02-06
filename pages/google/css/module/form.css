@@ -11,3 +11,9 @@
         padding: 2rem;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .c-form{
+        box-sizing: content-box;
+    }
+}
