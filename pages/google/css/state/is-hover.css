@@ -1,0 +1,31 @@
+.is-hover:hover{
+    color: #4285f4;
+    border-bottom: 2px solid #4285f4;
+}
+
+@media screen and (min-width: 1024px) {
+    .is-hover:hover{
+        color: #000;
+       border: none; 
+       text-decoration: underline;
+    }
+
+    .is-hover--apps-user:hover{
+        background-color: rgba(143, 150, 163, 0.2);
+        color: #8f96a3;
+    }
+
+    .is-hover--footer-link:hover{
+       text-decoration: underline;
+    }
+
+    .is-hover--box-shadow:hover{
+        box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+        border-color: rgba(223,225,229,0);
+    }
+
+    .is-hover--btn:hover{
+        border: 1px solid #dadce0;
+        box-shadow: 0px 1px 1px rgb(0,0,0,10%);
+    }
+}

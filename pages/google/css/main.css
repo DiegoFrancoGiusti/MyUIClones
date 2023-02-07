@@ -17,4 +17,4 @@
 @import 'module/footer.css';
 
 /*======== STATE ========*/
-@import 'state/is-checked.css';
+@import 'state/is-hover.css';

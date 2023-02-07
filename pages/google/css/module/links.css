@@ -13,14 +13,14 @@
     margin-right: 0.8rem;
 }
 
-.link---avatar{
-    padding: 0.4rem 0rem 0.4rem 0.4rem;
+.link--avatar{
+    padding: 0.4rem;
     margin: 0rem;
     width: 4rem;
     height: 4rem;
 }
 
-.link---avatar img{
+.link--avatar img{
     width: 3.2rem;
     height: 3.2rem;
 }
@@ -32,9 +32,10 @@
     height: 4rem; 
 }
 
-.link--applications, .link---avatar{
+.link--applications, .link--avatar{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .link--applications img{
@@ -55,14 +56,19 @@
         margin: 0rem;
    }
 
-   .link---avatar{
+   .link--avatar{
         margin: 0.8rem;
    }
 
    .link--applications{
     padding: 1.2rem;
    }
+}
 
+@media screen and (min-width: 1024px){
+    .c-link{
+        border-radius: 50%;
+    }
 }
 
 
