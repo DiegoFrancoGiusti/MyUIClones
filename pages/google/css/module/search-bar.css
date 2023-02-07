@@ -47,8 +47,7 @@
 
 @media screen and (min-width: 1024px){
     .c-form__search-bar{
-        width: 62rem;
-        box-sizing: content-box;
+        width: 58.4rem;
         border-radius: 3rem;
         padding: 0.25rem 0.8rem 0.25rem 1.4rem;
         margin-top: 0.6rem;
