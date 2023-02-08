@@ -36,6 +36,7 @@
     width: 9.6rem;
     height: 9.6rem;
     padding: 0.6rem;
+    border-radius: 0.8rem;
 }
 
 .c-applications__item a{
