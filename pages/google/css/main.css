@@ -5,6 +5,7 @@
 
 /*======== LAYOUT ========*/
 @import 'layout/layout.css';
+@import 'layout/popups.css';
 
 /*======== MODULE ========*/
 @import 'module/links.css';
@@ -15,6 +16,8 @@
 @import 'module/other-btn.css';
 @import 'module/trending-topics.css';
 @import 'module/footer.css';
+@import 'module/popup-apps.css';
+@import 'module/popup-accounts.css';
 
 /*======== STATE ========*/
 @import 'state/is-hover.css';
