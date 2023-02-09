@@ -1,0 +1,194 @@
+.popup--account{
+   display: none;
+    background-color: #f3f6fc;
+    border-radius: 2.4rem;
+    height: auto; 
+    padding: 0.8rem 0.8rem 0rem 0.8rem;
+    min-width: 30.4rem;
+    max-width: 40rem;
+}
+
+.c-account{
+    width: 100%;
+    height: 100%;
+    border-radius: 2.4rem; 
+}
+
+.c-account *{
+    width: 100%;
+    background-color: #fff;
+}
+
+/* USUÁRIO ATUAL */
+
+.c-account__current{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: start;
+    height: 14.5rem;
+    border-radius: 2.4rem 2.4rem 0.4rem 0.4rem; 
+    margin-bottom: 0.3rem;
+    padding: 1.6rem 1.6rem 0rem 1.6rem;
+}
+
+.c-account__info, .c-admin-account{
+    display: flex;
+    align-items: center;
+    height: 6.4rem;
+    width: 100%;
+}
+
+.c-account__others *, .c-admin-account *{
+    background-color: transparent;
+}
+
+div[class ^= "c-admin-account__"]{
+    background-color: transparent;
+}
+
+.c-account__info-img, .c-admin-account__icon{
+    max-width: 10rem;
+}
+
+.big--img{
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
+.c-account__change-img{
+    width: 3rem;
+    height: 3rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 0px;
+    left: -30px;
+}
+
+.c-account__change-img img{
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0.2rem;
+    border: 1px solid #c4c7c5;
+    border-radius: 50%;
+}
+
+.c-account__info-description{
+    margin-left: -2rem;
+}
+
+.c-account__info-description,.c-admin-account__text h3{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #1f1f1f;
+    background-color: transparent;
+}
+
+.c-account__info-description p{
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #444746;
+}
+
+.c-account__manage{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 1.4rem;
+    max-width: 31.1rem;
+    height: 4.7rem;
+}
+
+.c-account__manage a{
+    border: 1px solid #1f1f1f;
+    border-radius: 0.8rem;
+    color: #1f1f1f;
+    font-weight: 500;
+    margin: 0.8rem 0rem 0.9rem 0rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    width: 23.7rem;
+}
+
+/* OUTROS USUÁRIOS */
+
+.c-account__others{
+    height: 28.8rem;
+    border-radius: 0.4rem 0.4rem 2.4rem 2.4rem;
+    position: relative;
+}
+
+.c-account__others :first-child{
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+
+.c-account__others :last-child{
+    border-radius: 0rem 0rem 2.4rem 2.4rem;
+}
+
+.info-img--small, .c-admin-account__icon{
+    display: flex;
+    justify-content: center;
+    margin-right: 1.6rem;
+}
+
+.c-admin-account__icon{
+    margin: 0rem;
+}
+
+.small--img{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+/* ADICIONAR NOVO USUÁRIO */
+
+.c-admin-account__icon img{
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: transparent;
+}
+
+.c-admin-account__text h3{
+    color: #3C4043;
+}
+
+.especial{
+    position:absolute;
+    bottom: 0;
+}
+
+/* Sair */
+.admin-account--logout, .admin-account--logout *{
+    background-color: #f3f6fc;
+}
+
+.admin-account--logout{
+    border-bottom: 1px solid #c4c7c5;
+}
+
+/* Footer do popup */
+
+.politics-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    height: 3.5rem;
+}
+
+.politics-about a{
+    font-size: 1.2rem;
+    color: #303030;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.4rem;
+}
+
+.politics-about span{
+    background-color: #303030;
+    border: 1px solid #303030;
+    border-radius: 50%;
+    margin: 0rem 1.6rem;
+    height: 0.5rem;
+    width: 0.5rem;
+}
