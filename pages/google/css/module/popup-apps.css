@@ -1,5 +1,5 @@
 .popup--apps{
-    display: block;
+    display: none;
 }
 
 .popup--apps::-webkit-scrollbar{
