@@ -3,14 +3,18 @@ const navIconsHeader = document.querySelectorAll('.l-header__content')
 const popupApps = document.querySelector('.popup--apps')
 const popupAccount = document.querySelector('.popup--account')
 
+const setPopupDisplay = (popup1,popup2) => {
+    popup1.style.display = 'block'
+    popup2.style.display = 'none'
+}
+
 const closePopups = ({target}) => {
-    const isWrapper = target.className === "popup-wrapper"
+    const isWrapper = target === popupWrapper
 
     if(isWrapper){
-        popupWrapper.style.position = 'static'
-        popupApps.style.display = 'none'
-        popupAccount.style.display = 'none'
+        popupWrapper.classList.remove('show-popup')
     } 
+    
 }
 
 const openPopups = ({target}) => {
@@ -19,14 +23,12 @@ const openPopups = ({target}) => {
     const isAccountPopup = clickedElement.className === 'avatar' || clickedElement.classList[1] === 'link--avatar'
 
    if(isAppsPopup){
-        popupApps.style.display = 'block'
-        popupAccount.style.display = 'none'
-        popupWrapper.style.position = 'absolute'
+        setPopupDisplay(popupApps,popupAccount)
+        popupWrapper.classList.add('show-popup')
         
    }else if(isAccountPopup){
-        popupAccount.style.display = 'block'
-        popupApps.style.display = 'none'
-        popupWrapper.style.position = 'absolute'
+        setPopupDisplay(popupAccount,popupApps)
+        popupWrapper.classList.add('show-popup')
    }
 }
 
